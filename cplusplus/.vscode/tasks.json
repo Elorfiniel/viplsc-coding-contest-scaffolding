@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C++: Build Active File",
+      "type": "shell",
+      "command": "./build.ps1",
+      "args": [
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
