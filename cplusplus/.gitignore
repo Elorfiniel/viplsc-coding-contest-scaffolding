@@ -1,0 +1,4 @@
+# ignore config and cmake build tree
+.vscode
+**/build/*
+!**/build/.gitkeep
